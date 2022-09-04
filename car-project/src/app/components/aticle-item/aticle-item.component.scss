@@ -1,0 +1,21 @@
+.article-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: calc(30px + 3vw) 0;
+}
+.article-item img{
+    width: 45%;
+}
+.reverse-article{
+    flex-direction: row-reverse;
+}
+.article-item-desc{
+    width: 45%;
+}
+h2{
+    letter-spacing: 1px;
+}
+p{
+    padding: 5px 10px;
+}

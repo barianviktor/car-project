@@ -1,0 +1,314 @@
+{
+  "trycars": [
+    {
+      "id": 1,
+      "maker": 2,
+      "model": "911",
+      "design": 2,
+      "title": "Sportautó-ikon farmotorral, 2+2 üléssel és kimagasló menetteljesítményekkel.",
+      "description": "",
+      "avaiableColors": [1, 2, 3],
+      "madeIn": 2021,
+      "motor": 1,
+      "transmission": 1,
+      "seats": 2,
+      "images": [],
+      "cardImage": "https://assets.porsche.com/-/media/Project/DealerWebsites/SharedDealersWebsite/Master-Model-Page/911-Turbo/Media-gallery/911-Turbo_VM20_1333_11.jpg?rev=-1&w=1920",
+      "mainImage": "https://assets.porsche.com/-/media/Project/DealerWebsites/SharedDealersWebsite/Master-Model-Page/911-Turbo/Media-gallery/911-Turbo_VM20_1333_11.jpg?rev=-1",
+      "price": 125000
+    }
+  ],
+
+  "cars": [
+    {
+      "id": 1,
+      "maker": {
+        "title": "Porche",
+        "iconPath": "https://freepngimg.com/save/3958-porsche-car-logo-png-brand-image/781x1020",
+        "id": 2
+      },
+      "model": "911",
+      "design": {
+        "title": "Coupé",
+        "id": 2
+      },
+      "title": "Sportautó-ikon farmotorral, 2+2 üléssel és kimagasló menetteljesítményekkel.",
+      "description": "",
+      "avaiableColors": [
+        {
+          "title": "white",
+          "rgb": "rgb(255,255,255)",
+          "id": 1
+        },
+        {
+          "title": "Szurke",
+          "color": "#787878",
+          "id": 2
+        },
+        {
+          "title": "red",
+          "color": "#ea1f1f",
+          "id": 3
+        },
+        {
+          "title": "black",
+          "color": "#000000",
+          "id": 4
+        },
+        {
+          "title": "Olive",
+          "color": "#259d2d",
+          "id": 5
+        },
+        {
+          "title": "Yellow",
+          "color": "#e7ff2e",
+          "id": 6
+        },
+        {
+          "title": "Orange",
+          "color": "#f99e1f",
+          "id": 7
+        },
+        {
+          "title": "Blue",
+          "color": "#328cec",
+          "id": 8
+        },
+        {
+          "title": "Purple",
+          "color": "#8a62f9",
+          "id": 9
+        }
+      ],
+      "madeIn": 2021,
+      "motor": "Benzin",
+      "transmission": "Automata",
+      "seats": 2,
+      "images": [],
+      "cardImage": "https://assets.porsche.com/-/media/Project/DealerWebsites/SharedDealersWebsite/Master-Model-Page/911-Turbo/Media-gallery/911-Turbo_VM20_1333_11.jpg?rev=-1&w=1920",
+      "mainImage": "https://assets.porsche.com/-/media/Project/DealerWebsites/SharedDealersWebsite/Master-Model-Page/911-Turbo/Media-gallery/911-Turbo_VM20_1333_11.jpg?rev=-1",
+      "price": 125000,
+      "articles": [
+        {
+          "id": 1,
+          "title": "um massa, a malesuada mi euismod sed. Duis a ",
+          "description": "ed volutpat, tortor vitae finibus dignissim, leo massa vehicula nunc, vitae eleifend tellus quam vel elit. Donec sagittis, lectus sit amet convallis elementum, mauris nunc suscipit turpis, ac lobortis augue ante eu felis. Ut in mauris sed ligula feugiat fermentum. Morbi velit leo, aliquet non erat at, sodal",
+          "imagePath": "https://assets.porsche.com/hu/budapest/-/media/Project/DealerWebsites/SharedDealersWebsite/Master-Model-Page/911-Carrera-and-Targa/Feature-Description/Feature-description_Perfomance_911-Carrera.jpg?rev=-1"
+        },
+        {
+          "id": 2,
+          "title": "rtis, scelerisque venenatis erat lacinia. Morbi elementum molestie risus, ac la",
+          "description": "Quisque dapibus augue a erat ultricies varius non non orci. Nunc eget rhoncus purus. Pellentesque condimentum consectetur felis, cursus varius orci lobortis quis. Praesent sed dui ac lectus dignissim iaculis finibus quis ligula. Donec ornare tristique odio eu hendrerit. Suspendisse sodales ultricies magna, quis in",
+          "imagePath": "https://assets.porsche.com/hu/budapest/-/media/Project/DealerWebsites/SharedDealersWebsite/Master-Model-Page/911-Carrera-and-Targa/Feature-Description/Feature-description_Interior_911-Carrera.jpg?rev=-1"
+        },
+        {
+          "id": 3,
+          "title": "nia justo placerat et. Curabitur varius dolor",
+          "description": ". Nunc tristique et mi id congue. Pellentesque ex odio, porta sit amet nibh at, semper porta enim. Integer rhoncus odio orci, sit amet vestibulum nisi consequat nec. Sed ",
+          "imagePath": "https://assets.porsche.com/hu/budapest/-/media/Project/DealerWebsites/SharedDealersWebsite/Master-Model-Page/911-Carrera-and-Targa/Feature-Description/Feature-description_Comfort_911-Carrera.jpg?rev=-1"
+        }
+      ],
+      "smartCard": {
+        "id": 1,
+        "imagePath": "https://files.porsche.com/filestore/galleryimagerwd/multimedia/none/modelseries-911carrera992-outdoor-26/zoom2/872cfa8e-c4a9-11e9-80c5-005056bbdc38;sE;twebp/porsche-zoom2.webp",
+        "smartPoints": [
+          {
+            "id": 1,
+            "x": 41,
+            "y": 68,
+            "imagePath": "https://files.porsche.com/filestore/galleryimagerwd/multimedia/none/992%C2%B520-%C2%B520Carrera%C2%B520-%C2%B520Gallery%C2%B520-%C2%B52025/zoom2/0015aead-c926-11eb-80d7-005056bbdc38;sE;twebp/porsche-zoom2.webp",
+
+            "description": "Suspendisse tempor iaculis dapibus. Pellentesque eget tempus ligula. Integer ex augue, mattis vitae urna eu, egestas tincidunt quam. Praesent rhoncus eu metus at rutrum. Phasellus commodo lectus at lorem interdum, eget rutrum lectus blandit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis dolor mauris, porttitor in nibh cursus, ultrices pharetra magna. Integer consequat nunc ut massa pellentesque varius."
+          },
+          {
+            "id": 2,
+            "x": 44,
+            "y": 57,
+            "imagePath": "https://files.porsche.com/filestore/galleryimagerwd/multimedia/none/modelseries-911carrera992-interieur-13/zoom2/4598df82-8d74-11eb-80d4-005056bbdc38;sE;twebp/porsche-zoom2.webp",
+            "description": "m at dolor mi. In molestie nisi a diam aliquet, quis consectetur lectus pharetra. Donec fringilla in ex eget hendrerit. Donec tristique, massa ut pulvinar suscipit, leo ante semper odio, id hendrerit arcu quam vel felis. Sed facilisis sem in metus lobortis, scelerisque venenatis erat lacinia. Morbi elementum molestie risus, ac lacinia mauri"
+          },
+          {
+            "id": 3,
+            "x": 48,
+            "y": 70,
+            "imagePath": "https://files.porsche.com/filestore/galleryimagerwd/multimedia/none/modelseries-911carrera992-details-03/zoom2/7a4086e3-e75a-11e8-bec8-0019999cd470;sE;twebp/porsche-zoom2.webp",
+            "description": "rdiet libero a tempor. Nam at dolor mi. In molestie nisi a diam aliquet, quis consectetur lectus pharetra. Donec fringilla in ex eget hendrerit. Donec tristique, massa ut pulvinar suscipit, leo ante semper odio, id hendrerit arcu quam vel felis. Sed facilisis sem in metus lobortis, scelerisque venenatis erat lacinia. Morbi elementum molestie risus, ac lacinia mauris tempus a. In ultrices, lorem sed laoreet pulvinar, tortor ipsum ornare felis, ut "
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "maker": {
+        "title": "Porche",
+        "iconPath": "https://freepngimg.com/save/3958-porsche-car-logo-png-brand-image/781x1020",
+        "id": 2
+      },
+      "model": "718",
+      "design": {
+        "title": "Coupé",
+        "id": 2
+      },
+      "title": "",
+      "description": "",
+      "avaiableColors": [
+        {
+          "title": "white",
+          "rgb": "rgb(255,255,255)",
+          "id": 1
+        },
+        {
+          "title": "Szurke",
+          "color": "#787878",
+          "id": 2
+        },
+        {
+          "title": "red",
+          "color": "#ea1f1f",
+          "id": 3
+        },
+        {
+          "title": "black",
+          "color": "#000000",
+          "id": 4
+        },
+        {
+          "title": "Olive",
+          "color": "#259d2d",
+          "id": 5
+        },
+        {
+          "title": "Yellow",
+          "color": "#e7ff2e",
+          "id": 6
+        },
+        {
+          "title": "Orange",
+          "color": "#f99e1f",
+          "id": 7
+        },
+        {
+          "title": "Blue",
+          "color": "#328cec",
+          "id": 8
+        },
+        {
+          "title": "Purple",
+          "color": "#8a62f9",
+          "id": 9
+        }
+      ],
+      "madeIn": 2021,
+      "motor": "Benzin",
+      "transmission": "Automata",
+      "seats": 2,
+      "images": [],
+      "cardImage": "https://assets.porsche.com/-/media/Project/DealerWebsites/SharedDealersWebsite/Master-Model-Page/718-Cayman-GT4/Media-gallery/GT4_VM19_2053_9.jpg?rev=-1&w=1760",
+      "mainImage": "https://assets.porsche.com/-/media/Project/DealerWebsites/SharedDealersWebsite/Master-Model-Page/718-Cayman-GT4/Media-gallery/GT4_VM19_2053_9.jpg?rev=-1&w=1760",
+      "price": 135000
+    }
+  ],
+  "makers": [
+    {
+      "title": "Mercedes-Benz",
+      "iconPath": "https://png.monster/wp-content/uploads/2022/02/png.monster-694.png",
+      "id": 1
+    },
+    {
+      "title": "Porche",
+      "iconPath": "https://freepngimg.com/save/3958-porsche-car-logo-png-brand-image/781x1020",
+      "id": 2
+    },
+    {
+      "title": "BMW",
+      "iconPath": "https://toppng.com/uploads/preview/bmw-logo-bmw-logo-high-resolutio-11563319760gtbncaz78b.png",
+      "id": 3
+    }
+  ],
+  "colors": [
+    {
+      "title": "white",
+      "rgb": "rgb(255,255,255)",
+      "id": 1
+    },
+    {
+      "title": "Szurke",
+      "color": "#787878",
+      "id": 2
+    },
+    {
+      "title": "red",
+      "color": "#ea1f1f",
+      "id": 3
+    },
+    {
+      "title": "black",
+      "color": "#000000",
+      "id": 4
+    },
+    {
+      "title": "Olive",
+      "color": "#259d2d",
+      "id": 5
+    },
+    {
+      "title": "Yellow",
+      "color": "#e7ff2e",
+      "id": 6
+    },
+    {
+      "title": "Orange",
+      "color": "#f99e1f",
+      "id": 7
+    },
+    {
+      "title": "Blue",
+      "color": "#328cec",
+      "id": 8
+    },
+    {
+      "title": "Purple",
+      "color": "#8a62f9",
+      "id": 9
+    }
+  ],
+  "designs": [
+    {
+      "title": "Sedan",
+      "id": 1
+    },
+    {
+      "title": "Coupé",
+      "id": 2
+    },
+    {
+      "title": "Hatchback",
+      "id": 3
+    }
+  ],
+  "motors": [
+    {
+      "id": 1,
+      "desc": "Gasoline"
+    },
+    {
+      "id": 2,
+      "desc": "Diesel"
+    },
+    {
+      "id": 3,
+      "desc": "Electric"
+    }
+  ],
+  "transmissions": [
+    {
+      "id": 1,
+      "desc": "Manual"
+    },
+    {
+      "id": 2,
+      "desc": "Automatic"
+    }
+  ]
+}

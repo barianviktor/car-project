@@ -1,0 +1,27 @@
+<section class="smart-card-item">
+  <div [class.image-container-open]="!selectedItem" class="image-container">
+    <div
+      style="background-color: 'primary'"
+      (click)="onSelectItem(smartPoint)"
+      [ngStyle]="{ top: smartPoint.x + '%', left: smartPoint.y + '%' }"
+      class="smart-point"
+      *ngFor="let smartPoint of smartCard.smartPoints"
+    ></div>
+    <img class="base-image" [src]="smartCard.imagePath" />
+  </div>
+  <div [class.desc-container-open]="!selectedItem" class="desc-container">
+    <div class="desc-image-container">
+      <img [src]="selectedItem?.imagePath" />
+    </div>
+    <p>{{ selectedItem?.description }}</p>
+    <div class="desc-navigator">
+      <mat-icon
+        (click)="onSelectItem(selectedItem)"
+        color="primary"
+        aria-hidden="false"
+        fontIcon="arrow_back_ios"
+        class="desc-icon"
+      ></mat-icon>
+    </div>
+  </div>
+</section>

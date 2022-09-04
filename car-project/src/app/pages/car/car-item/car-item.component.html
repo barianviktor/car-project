@@ -1,0 +1,92 @@
+<div class="content-container">
+  <div class="component-header">
+    <div class="header-content page-max-width">
+      <div class="title-card">
+        <img [src]="car.maker.iconPath" />
+        <span>{{ car.maker.title }}</span>
+        <span>{{ car.model }}</span>
+      </div>
+      <div class="car-desc-title-card">
+        <span>{{ car.title }}</span>
+      </div>
+      <div class="feature-list-card">
+        <div class="feature-item">
+          <div class="icon-container">
+            <mat-icon
+              color="primary"
+              aria-hidden="false"
+              fontIcon="local_gas_station"
+              class="header-icon"
+            ></mat-icon>
+          </div>
+          <div class="data-container">
+            <span class="feature-title">Motor</span>
+            <span class="feature-value">{{ car.motor }}</span>
+          </div>
+        </div>
+
+        <div class="feature-item">
+          <div class="icon-container">
+            <mat-icon
+              color="primary"
+              aria-hidden="false"
+              fontIcon="directions_car"
+              class="header-icon"
+            ></mat-icon>
+          </div>
+          <div class="data-container">
+            <span class="feature-title">Transmission</span>
+            <span class="feature-value">{{ car.transmission }}</span>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="icon-container">
+            <mat-icon
+              color="primary"
+              aria-hidden="false"
+              fontIcon="view_carousel"
+              class="header-icon"
+            ></mat-icon>
+          </div>
+          <div class="data-container">
+            <span class="feature-title">Design</span>
+            <span class="feature-value">{{ car.design.title }}</span>
+          </div>
+        </div>
+
+        <div class="feature-item">
+          <div class="icon-container">
+            <mat-icon
+              color="primary"
+              aria-hidden="false"
+              fontIcon="chair_alt"
+              class="header-icon"
+            ></mat-icon>
+          </div>
+          <div class="data-container">
+            <span class="feature-title">Seats</span>
+            <span class="feature-value">{{ car.seats }}</span>
+          </div>
+        </div>
+      </div>
+      <div class="offer-card">
+        <p class="">For {{ car.price | currency: "Ft" }} / day*</p>
+
+        <button mat-raised-button color="primary">Request an offer</button>
+      </div>
+    </div>
+
+    <div class="imageContainer">
+      <div class="backdrop"></div>
+      <img [src]="car.mainImage" alt="" />
+    </div>
+  </div>
+  <section class="page-max-width">
+    <app-aticle-item
+      *ngFor="let article of car.articles; let i = index"
+      [article]="article"
+      [reversed]="i % 2 == 0"
+    ></app-aticle-item>
+    <app-smart-card [smartCard]="car.smartCard"></app-smart-card>
+  </section>
+</div>

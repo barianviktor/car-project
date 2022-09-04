@@ -1,0 +1,82 @@
+.smart-card-item{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.image-container{
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: calc((250px + 6vw) * -1 );
+    height: fit-content;
+    transition: all 0.05s ease-in;
+}
+.base-image{
+    width: 100%;
+    
+}
+.smart-point{
+    position: absolute;
+    background-color: white;
+    box-sizing: content-box;
+    border: 3px solid rgb(38, 104, 228);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+
+}
+.smart-point:hover{
+
+    border: 3px solid rgb(38, 104, 228);
+    width: 12px;
+    height: 12px;
+    box-shadow: 2px 4px 4px rgba(26, 26, 26, 0.644);
+
+}
+.desc-container{
+    width:calc(250px + 6vw);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.05s ease-in;
+    
+}
+.desc-image-container {
+    
+ 
+    width: 100%;
+    height: 35%;
+   
+    
+}
+.desc-image-container  img{
+    object-fit: cover;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    
+}
+.desc-container p {
+    padding: 15px;
+}
+.desc-container-open{
+    right:  calc((250px + 6vw) * -1 );
+}
+.image-container-open{
+    left: 0;
+}
+.desc-navigator{
+    width: 90%;
+    padding: 20px 5px;
+}
+.desc-icon{
+    cursor: pointer;
+    font-size: 25px;
+}

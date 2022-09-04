@@ -1,0 +1,126 @@
+
+
+.component-header{
+    width: 100%;
+
+    max-height: fit-content;
+    position: relative;
+  
+    overflow: hidden; 
+}
+.imageContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    
+}
+.imageContainer  img{
+    object-fit: cover;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    
+}
+.backdrop{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(to right, rgba(22, 22, 22, 0.836) 20% , rgba(12, 179, 101, 0) 60%);
+}
+.header-content{
+    height: fit-content;
+    display: block;
+    position: relative;
+    z-index: 2;
+    color: white;
+    padding: calc(10px + 3vw) 10px;
+}
+.header-content div{
+    margin: calc(15px + 1vw) 0;
+}
+.title-card{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(30px + 0.5vw);
+    font-weight: 600;
+    letter-spacing: 1px;
+    
+}
+.title-card img{
+    height: 45px;
+}
+.title-card *{
+    padding: 10px;
+}
+.car-desc-title-card{
+    margin: calc(25px + 1vw) 0;
+    font-size: calc(15px + 0.3vw);
+
+    padding: 10px;
+    max-width: 70%;
+}
+
+.offer-card{
+    font-size: calc(18px + 0.5vw);
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+.offer-card button{
+    font-size: 20px!important;
+    padding: 5px 15px!important;
+}
+
+.feature-list-card{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.feature-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.data-container{
+
+    display: flex;
+    height: 70px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    border-right: 2px solid white;
+}
+.header-icon{
+    width: fit-content;
+    height: fit-content;
+    font-size: 35px;
+}
+.feature-title{
+    font-weight: 500;
+    font-size: 22px;
+}
+.feature-value{
+    font-style: italic;
+    font-size: 18px;
+}
+.icon-container{
+    width: fit-content;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 5px;
+
+}
